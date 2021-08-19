@@ -1,0 +1,195 @@
+body
+{
+    background-color: black;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+}
+header {
+    height: 50%;
+    width: 100%;
+    float: left;
+    background-image: url(images/navback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 0 20px;
+    color: #fff;
+}
+.brand-logo {
+    max-width: 75px;
+    float: left;
+    padding: 14px 0px;
+}
+.brand-logo img {
+    max-width: 100%;
+}
+.navigation {
+    margin: 0px;
+    float: right;
+}
+.navigation li {
+    list-style: none;
+    float: left;
+}
+.navigation li a {
+    color: #fff;
+    padding: 28px 15px;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    text-decoration: none;
+}
+.navigation li a i {
+    width: 100%;
+    font-size: 20px;
+    margin-bottom: 7px;
+}
+.show-menu-btn,
+.hide-menu-btn {
+    transition: 0.4s;
+    font-size: 30px;
+    cursor: pointer;
+    display: none;
+}
+.show-menu-btn {
+    margin: 0px;
+    float: right;
+}
+.show-menu-btn i {
+    line-height: 100px;
+}
+.navigation a:hover,
+.show-menu-btn:hover,
+.hide-menu-btn:hover {
+    color: black;
+}
+#toggle-btn {
+    position: absolute;
+    visibility: hidden;
+    z-index: -1111;
+}
+
+/*-- Responsive CSS --*/
+@media screen and (max-width:767px) {
+.show-menu-btn,
+.hide-menu-btn {
+    display: block;
+}
+.navigation {
+    position: fixed;
+    width: 100%;
+    height: 50vh;
+    background: rgba(117, 4, 4, 0.842);
+    top: -100%;
+    left: 0;
+    padding: 50px 0px;
+    transition: 1s;
+}
+.navigation li {
+    width: 100%;
+}
+.navigation li a {
+    padding: 15px 15px;
+    text-align: left;
+}
+.navigation li a i {
+    width: auto;
+    font-size: 20px;
+}
+.hide-menu-btn {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+#toggle-btn:checked ~ nav .navigation {
+    top: 0px;
+}
+}
+body{
+    background-repeat: no-repeat;
+    background-image: url(https://media.istockphoto.com/photos/blue-abstract-background-or-texture-picture-id1138395421?k=6&m=1138395421&s=612x612&w=0&h=bJ1SRWujCgg3QWzkGPgaRiArNYohPl7-Wc4p_Fa_cyA=);
+    background-size: cover;     
+}
+
+#usama_photo{
+width : 200px;
+border-radius:55%;
+margin-top: 15%;
+margin-left: 15%;
+
+}
+
+
+.text_intro{
+padding: 15%;
+
+}
+.text_style{
+    color: #fafaff;
+    font-family: Helvetica sans-serif;
+}
+.text_quote{
+text-align: center;
+margin-top: 5%;
+
+}
+#quote_container{
+
+}
+.welcome_sect{
+background-image: url(images/back1.jpg);
+background-repeat: no-repeat;
+background-size: cover;
+
+}
+.skills{
+    color: #fafaff;
+    font-family: Helvetica sans-serif;   
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.skills_list{
+margin-left: 150px;
+
+
+
+}
+#pro{
+
+    padding-top: 15px;
+    padding-left: 20px
+
+}
+.footer{
+    background-image: url(images/navback.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.company{
+
+margin-left: 20%;
+margin-top: 25px;
+color:#08034d; 
+font-family: Helvetica sans-serif
+
+}
+.feedback_box{
+    padding: 5px;
+    margin-top: 0%;
+    margin-left: 16%;
+
+}
+.sub_btn{
+color: white;
+background-color:#08034d;
+width: 70px;
+border-radius: 20px;
+margin-left: 51%; 
+margin-bottom: 5%;
+
+}

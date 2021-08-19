@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en" class="backs" >
+<head>
+    <meta charset="UTF-8">
+    <title>Registration Page</title>
+    <style>
+    .backs{
+    background-image : url('https://assets.kpmg/is/image/kpmg/covid-19-blue-banner:cq5dam.web.1200.630');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    }
+    .top{
+    background-color: white;
+    text-align: center;
+    color: #071063;
+    text-decoration: underline;
+    border-radius : 10px;
+    }
+    .pink{
+    background-color : #ADD8E6;
+    border-radius : 5px;
+    display : block;
+    width : 210px ;
+
+    }
+    .white{
+    background-color : brown;
+    width: 220px;
+    }
+    textarea{
+    width: 210px;
+    height: 76px;
+    }
+    .content {
+  max-width: 200px;
+  margin: auto;
+}
+    </style>
+</head>
+<body >
+<h1 class="top"> Studies During Covid. </h1>
+<form class="content">
+    <label for="name" class="pink">Name</label>
+    <input type="text" id="name" name="name" size="25"><br><br>
+
+
+    <label for="number" class="pink">Number</label>
+    <input type="tel" id="number" name="number" size="25"><br><br>
+
+
+    <label for="email" class="pink">Email</label>
+    <input type="email" id="email" name="email" size="25"><br><br>
+
+    <label for="province" class="pink">Choose your province</label>
+    <select name="province" id="province" >
+        <option value="punjab">Punjab</option>
+        <option value="sindh">Sindh</option>
+        <option value="kpk">KPK</option>
+        <option value="balochistan">Balochistan</option>
+    </select><br><br>
+
+
+
+    <label class="pink">Choose your subject </label><br>
+
+    <input type="radio" id="engr" name="Subject" value="engr">
+    <label for="engr" class="pink" >Pre-Engineering </label>
+
+    <input type="radio" id="ics" name="Subject" value="ics" >
+    <label for="ics" class="pink">ICS </label>
+
+    <input type="radio" id="medical" name="Subject" value="medical" >
+    <label for="medical" class="pink">Pre-medical</label><br><br>
+
+    <label class="pink"> Should School open</label>
+    <input type="radio" id="yes" value="yes">
+    <label for="yes" class="pink">Yes</label>
+    <input type="radio" id="no" value="no">
+    <label class="pink" for="no">NO</label><br>
+    <label for="comments" class="pink">Comments</label>
+    <textarea id="comments" name="comments"  ></textarea><br><br>
+
+    <input class="white" type="submit" value="Submit">
+
+
+</form>
+</body>
+</html>
